@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Classical Chile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&family=Playfair+Display+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Generar una Navbar-->
+    <header>
+        <nav>
+            <ul>
+                <li>LOGO</li>
+                <li>Inicio</li>
+                <li>Música Antigua</li>
+                <li>Música Clásica</li>
+                <li>Música Contemporánea</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Banner-->
+    <section class="banner">
+        <div class="bannerWrap">
+            <div class="bannerBox">
+                <h1>Classical Chile</h1>
+                <p>Un espacio para la promoción de eventos vinculados a la música clásica chilena</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Contenido-->
+    <div class="titulo">
+        <h2 class="bienvenida">BIENVENIDOS</h2>
+        <p class="descripcion personal-greeting"></p>
+    </div>
+
+    <div class="novedades"></div>
+
+    <div class="indiceMeses">
+        <h3>Revisa nuestra cartelera 2022</h3>
+            <select class="meses">
+                <option selected="selected" disabled="disabled">Selecciona un mes</option>
+            </select>
+    </div>
+    
+    <div class="resultadosBusqueda"></div>
+
+    <div class="formulario">
+        <h3 class="suscribe">Suscríbete y recibe nuestras últimas novedades</h3>
+
+        <form>
+            <div class="remember">
+              <label for="entername">¿Cuál es tu nombre?</label>
+              <input id="entername" type="text" required>
+              <label for="email">Ingresa tu e-mail</label>
+              <input type="email" id="email" required>
+              <input id="submitname" type="submit" value="Ingresar">
+            </div>
+            <div class="forget">
+              <label for="forgetname">¿Deseas que olvidemos tu nombre?</label>
+              <input id="forgetname" type="reset" value="Salir">
+            </div>
+          </form>
+
+
+
+    </div>
+
+    <script src="assets/scripts/scripts.js"></script>
+</body>
+
+</html>
